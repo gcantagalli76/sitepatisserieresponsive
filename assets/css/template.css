@@ -60,11 +60,12 @@ body{
     color: #505050;
 }
 
-button {
+.button {
     outline: none;
     border: 0;
 }
-input {
+
+.input {
     outline: none;
     border: 0;
 }
