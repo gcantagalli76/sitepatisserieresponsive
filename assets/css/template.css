@@ -29,11 +29,13 @@ body{
 }
 
 
-
+.whiteText{
+    color: white;
+}
 
 .footerColor{
     background-color: #FF8E64;
-    color: white;
+
 }
 
 .tailleHeader{
@@ -96,8 +98,42 @@ a {
 .contentHeader{
     height: 30em;
     overflow: hidden;
+    position: relative;
+    background: url(../img/accueil.webp);
 }
 
 
 
+.contenHeaderTitle{
+    position: absolute;
+    bottom: 0;
+    right: 0rem;
+    margin: 0;
+    background: radial-gradient(rgba(150, 150, 150, 1), rgba(255, 255, 255, 0) 60%);
+    color: white;
+    padding: 4rem 8rem;
+    font-size: 4rem;
+}
+
+
+
+.imgProduits{
+    width: 28em;
+}
+
+
+@media screen and ( max-width: 768px ) {
+    img.responsive { width: 100%; }
+    img.contentHeaderResponsive { width: 30em; height: auto; }
+    .contenHeaderTitle{
+        position: absolute;
+        margin: 0;
+        width: 100%;
+        height: 35%;
+        background: radial-gradient(rgba(150, 150, 150, 1), rgba(255, 255, 255, 0) 70%);
+        color: white;
+        padding: 1rem 7rem;
+        font-size: 3em;
+    }
+}
 
