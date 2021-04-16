@@ -1,0 +1,15 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.taille{
+    width: 25em;
+}
+
+.styleBouton{
+    cursor:initial;
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    text-decoration: none;
+}

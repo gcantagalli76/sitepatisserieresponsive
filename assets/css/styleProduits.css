@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Ballet Harmony";
+    src: url(../font/Ballet\ Harmony.ttf) format("truetype");
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.balletHarmony {
+    font-family: "Ballet Harmony";
+    font-size: 3em;
+}
+
+.balletHarmony:hover{
+    text-decoration: underline;
+}
+
+.recherche{
+    width: 100%;
+    height: 2em;
+}
+
+.bRecherche {
+    background-color: #707070;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.tailleImage{
+    max-width: 50em;
+    max-height: 30em;
+    width: 50em;
+    height: 30em;
+
+    box-shadow: 10px 10px 10px #707070;
+    border-radius: 10px;
+}
+
+.uContainer img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.uContainer:hover img {
+    opacity: .7;
+}
