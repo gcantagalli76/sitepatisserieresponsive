@@ -35,9 +35,13 @@ body{
 
 .footerColor{
     background-color: #FF8E64;
-
 }
 
+.footBot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
 .tailleHeader{
     height: 3.5em;
 }
@@ -124,7 +128,6 @@ a {
 
 @media screen and ( max-width: 768px ) {
     img.responsive { width: 100%; }
-    img.contentHeaderResponsive { width: 30em; height: auto; }
     .contenHeaderTitle{
         position: absolute;
         margin: 0;
