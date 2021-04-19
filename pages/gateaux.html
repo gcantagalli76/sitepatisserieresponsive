@@ -1,337 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\css\template.css">
-    <link rel="stylesheet"
-        href="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\css\gateaux.css">
-    <title>Gâteaux</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/css/template.css">
+  <link rel="stylesheet" href="../assets/css/gateaux.css">
+  <title>Document</title>
 </head>
 
 <body>
-   <!-- **************** HEADER LOGO + NAVBAR **************** -->
-   <div class="container-fluid noGutter">
+
+
+  <!-- **************** HEADER LOGO + NAVBAR **************** -->
+  <div class="container-fluid noGutter">
 
     <div class="row tailleHeader bg-light w-100 mx-auto">
-        <div class="col position-relative h-100 w-100 noGutter"><div class="logoGris position-absolute top-50 start-50 translate-middle mt-1 h-100"></div>
-        </div>
+      <div class="col position-relative h-100 w-100 noGutter">
+        <div class="logoGris position-absolute top-50 start-50 translate-middle mt-1 h-100"></div>
+      </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
-            <ul class="row bg-light w-100 navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-              <li class="col-xl-1 offset-xl-2 nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-              </li>
-              <li class="col-xl-1 nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Produits</a>
-              </li>
-              <li class="col-xl-1 nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
-              </li>
-              <li class="col-xl-1 offset-xl-5 nav-item">
-                <a class="nav-link active position-relative" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 24 24"><path d="M22.713 4.077A2.993 2.993 0 0020.41 3H4.242L4.2 2.649A3 3 0 001.222 0H1a1 1 0 000 2h.222a1 1 0 01.993.883l1.376 11.7A5 5 0 008.557 19H19a1 1 0 000-2H8.557a3 3 0 01-2.82-2h11.92a5 5 0 004.921-4.113l.785-4.354a2.994 2.994 0 00-.65-2.456zM21.4 6.178l-.786 4.354A3 3 0 0117.657 13H5.419l-.941-8H20.41a1 1 0 01.99 1.178z"/><circle cx="7" cy="22" r="2"/><circle cx="17" cy="22" r="2"/></svg><span class="position-absolute top-100 start-10 translate-middle badge rounded-pill count">1<span class="visually-hidden">unread messages</span></span></a>
-              </li>
-            </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+        <ul class="row bg-light w-100 navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <li class="col-xl-1 offset-xl-2 nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="col-xl-1 nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Produits</a>
+          </li>
+          <li class="col-xl-1 nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+          <li class="col-xl-1 offset-xl-5 nav-item">
+            <a class="nav-link active position-relative" aria-current="page" href="#"><svg
+                xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 24 24">
+                <path
+                  d="M22.713 4.077A2.993 2.993 0 0020.41 3H4.242L4.2 2.649A3 3 0 001.222 0H1a1 1 0 000 2h.222a1 1 0 01.993.883l1.376 11.7A5 5 0 008.557 19H19a1 1 0 000-2H8.557a3 3 0 01-2.82-2h11.92a5 5 0 004.921-4.113l.785-4.354a2.994 2.994 0 00-.65-2.456zM21.4 6.178l-.786 4.354A3 3 0 0117.657 13H5.419l-.941-8H20.41a1 1 0 01.99 1.178z" />
+                <circle cx="7" cy="22" r="2" />
+                <circle cx="17" cy="22" r="2" /></svg><span
+                class="position-absolute top-100 start-10 translate-middle badge rounded-pill count">1<span
+                  class="visually-hidden">unread messages</span></span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- **************** CONTENU **************** -->
+    <div class="row text-center">
+      <div class="col-12">
+        <h1>Gateaux</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-2 ms-4 uContainer">
+        <figure class="w-100">
+          <div class="w-100">
+            <img class="tailleImage w-100 " src="../assets/img/gateau1.jpg" alt="gateau1">
+            <figcaption class="balletHarmony text-center">Gateau au chocolat</figcaption>
+          </div>
+        </figure>
+      </div>
+      <div class="col-12 col-xl-2 ms-4 uContainer">
+        <figure class="w-100">
+          <div class="w-100">
+            <img class="tailleImage w-100 " src="../assets/img/gateau2.jpg" alt="gateau1">
+            <figcaption class="balletHarmony text-center">Gateau au chocolat</figcaption>
+          </div>
+        </figure>
+      </div>
+      <div class="col-12 col-xl-2 ms-4 uContainer">
+        <figure class="w-100">
+          <div class="w-100">
+            <img class="tailleImage w-100 " src="../assets/img/gateau3.jpg" alt="gateau1">
+            <figcaption class="balletHarmony text-center">Gateau au chocolat</figcaption>
+          </div>
+        </figure>
+      </div>
+      <div class="col-12 col-xl-2 ms-4 uContainer">
+        <figure class="w-100">
+          <div class="w-100">
+            <img class="tailleImage w-100 " src="../assets/img/gateau4.jpg" alt="gateau1">
+            <figcaption class="balletHarmony text-center">Gateau au chocolat</figcaption>
+          </div>
+        </figure>
+      </div>
+      <div class="col-12 col-xl-2 ms-4 uContainer">
+        <figure class="w-100">
+          <div class="w-100">
+            <img class="tailleImage w-100 " src="../assets/img/gateau5.jpg" alt="gateau1">
+            <figcaption class="balletHarmony text-center">Gateau au chocolat</figcaption>
+          </div>
+        </figure>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-2 ms-4 uContainer">
+        <figure class="w-100">
+          <div class="w-100">
+            <img class="tailleImage w-100 " src="../assets/img/gateau6.jpg" alt="gateau1">
+            <figcaption class="balletHarmony text-center">Gateau au chocolat</figcaption>
+          </div>
+        </figure>
+      </div>
+      <div class="col-12 col-xl-2 ms-4 uContainer">
+        <figure class="w-100">
+          <div class="w-100">
+            <img class="tailleImage w-100 " src="../assets/img/gateau7.jpg" alt="gateau1">
+            <figcaption class="balletHarmony text-center">Gateau au chocolat</figcaption>
+          </div>
+        </figure>
+      </div>
+      <div class="col-12 col-xl-2 ms-4 uContainer">
+        <figure class="w-100">
+          <div class="w-100">
+            <img class="tailleImage w-100 " src="../assets/img/gateau8.jpg" alt="gateau1">
+            <figcaption class="balletHarmony text-center">Gateau au chocolat</figcaption>
+          </div>
+        </figure>
+      </div>
+      <div class="col-12 col-xl-2 ms-4 uContainer">
+        <figure class="w-100">
+          <div class="w-100">
+            <img class="tailleImage w-100 " src="../assets/img/gateau9.jpg" alt="gateau1">
+            <figcaption class="balletHarmony text-center">Gateau au chocolat</figcaption>
+          </div>
+        </figure>
+      </div>
+      <div class="col-12 col-xl-2 ms-4 uContainer">
+        <figure class="w-100">
+          <div class="w-100">
+            <img class="tailleImage w-100 " src="../assets/img/gateau10.jpg" alt="gateau1">
+            <figcaption class="balletHarmony text-center">Gateau au chocolat</figcaption>
+          </div>
+        </figure>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalGateaux1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
-      </nav>
-<!-- **************** CONTENU **************** -->
-            <div class="container-fluid">
-                <div class="row justify-content-center couleurfond tailletitre">
-                    <div class="col-sm-1">
-                        <h1 class="police">Gateaux</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid text-center couleurfond">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau1.jpg"
-                            class="img2" alt="Gateau1" type="button" class="btn" data-bs-toggle="modal"
-                            data-bs-target="#modal">
-                        <figcaption class="policetitre">Gateau au chocolat</figcaption>
-                        <div class="modal fade" id="modal" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header justify-content-end hauteurheadmodal">
-                                        <span type="button" class="close2" data-bs-dismiss="modal">&times;</span>
-                                    </div>
-                                    <div class="modal-body text-center">
-                                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau1.jpg"
-                                            class="imggat" alt="Gateau1">
-                                    </div>
-                                    <h2 class="titregat">Gâteau au chocolat</h2>
-                                    <p class="ingrprix"> <strong>Ingrédients : </strong>Chocolat pâtissier, Beurre,
-                                        Oeufs, Sucre en poudre, Farine</p>
-                                    <p class="ingrprix"> <strong>Prix : </strong>18€</p>
-                                    <div class="modal-footer justify-content-start">
-                                        <input type="button" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau2.jpg"
-                            class="img2" alt="Gateau2" type="button" class="btn" data-bs-toggle="modal"
-                            data-bs-target="#modalcitron">
-                        <figcaption class="policetitre">Tarte au citron</figcaption>
-                        <div class="modal fade" id="modalcitron" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header justify-content-end hauteurheadmodal">
-                                        <span type="button" class="close2" data-bs-dismiss="modal">&times;</span>
-                                    </div>
-                                    <div class="modal-body text-center">
-                                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau2.jpg"
-                                            class="imggat" alt="Gateau2">
-                                    </div>
-                                    <h2 class="titregat">Tarte au citron</h2>
-                                    <p class="ingrprix"> <strong>Ingrédients : </strong>Pâte brisée, Sucre, Beurre,
-                                        Oeufs, Citron</p>
-                                    <p class="ingrprix"> <strong>Prix : </strong>15€</p>
-                                    <div class="modal-footer justify-content-start">
-                                        <input type="button" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau3.jpg"
-                            class="img2" alt="Gateau3" type="button" class="btn" data-bs-toggle="modal"
-                            data-bs-target="#modalfraisier">
-                        <figcaption class="policetitre">Fraisier</figcaption>
-                        <div class="modal fade" id="modalfraisier" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header justify-content-end hauteurheadmodal">
-                                        <span type="button" class="close2" data-bs-dismiss="modal">&times;</span>
-                                    </div>
-                                    <div class="modal-body text-center">
-                                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau3.jpg"
-                                            class="imggat" alt="Gateau3">
-                                    </div>
-                                    <h2 class="titregat">Fraisier</h2>
-                                    <p class="ingrprix"> <strong>Ingrédients : </strong>Oeufs, Farine, Sucre, Lait,
-                                        Beurre, Fraises</p>
-                                    <p class="ingrprix"> <strong>Prix : </strong>22€</p>
-                                    <div class="modal-footer justify-content-start">
-                                        <input type="button" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau4.jpg"
-                            class="img2" alt="Gateau4" type="button" class="btn" data-bs-toggle="modal"
-                            data-bs-target="#modalyahourt">
-                        <figcaption class="policetitre">Gateau au Yaourt</figcaption>
-                        <div class="modal fade" id="modalyahourt" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header justify-content-end hauteurheadmodal">
-                                        <span type="button" class="close2" data-bs-dismiss="modal">&times;</span>
-                                    </div>
-                                    <div class="modal-body text-center">
-                                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau4.jpg"
-                                            class="imggat" alt="Gateau4">
-                                    </div>
-                                    <h2 class="titregat">Gateau au Yaourt</h2>
-                                    <p class="ingrprix"> <strong>Ingrédients : </strong>Farine, Levure, Huile de colza,
-                                        Sucre, Yaourt</p>
-                                    <p class="ingrprix"> <strong>Prix : </strong>10€</p>
-                                    <div class="modal-footer justify-content-start">
-                                        <input type="button" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau5.jpg"
-                            class="img2" alt="Gateau5" type="button" class="btn" data-bs-toggle="modal"
-                            data-bs-target="#modalflan">
-                        <figcaption class="policetitre">Flan patissier</figcaption>
-                        <div class="modal fade" id="modalflan" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header justify-content-end hauteurheadmodal">
-                                        <span type="button" class="close2" data-bs-dismiss="modal">&times;</span>
-                                    </div>
-                                    <div class="modal-body text-center">
-                                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau5.jpg"
-                                            class="imggat" alt="Gateau5">
-                                    </div>
-                                    <h2 class="titregat">Flan patissier</h2>
-                                    <p class="ingrprix"> <strong>Ingrédients : </strong>Vanille, Pâte brisée, Oeufs,
-                                        Lait, Sucre</p>
-                                    <p class="ingrprix"> <strong>Prix : </strong>12€</p>
-                                    <div class="modal-footer justify-content-start">
-                                        <input type="button" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau6.jpg"
-                            class="img2" alt="Gateau6" type="button" class="btn" data-bs-toggle="modal"
-                            data-bs-target="#modalrhum">
-                        <figcaption class="policetitre">Baba au rhum</figcaption>
-                        <div class="modal fade" id="modalrhum" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header justify-content-end hauteurheadmodal">
-                                        <span type="button" class="close2" data-bs-dismiss="modal">&times;</span>
-                                    </div>
-                                    <div class="modal-body text-center">
-                                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau6.jpg"
-                                            class="imggat" alt="Gateau6">
-                                    </div>
-                                    <h2 class="titregat">Baba au rhum</h2>
-                                    <p class="ingrprix"> <strong>Ingrédients : </strong>Farine, Beurre, Sucre, Levure,
-                                        Lait, Oeufs, Rhum</p>
-                                    <p class="ingrprix"> <strong>Prix : </strong>16€</p>
-                                    <div class="modal-footer justify-content-start">
-                                        <input type="button" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau7.jpg"
-                            class="img2" alt="Gateau7" type="button" class="btn" data-bs-toggle="modal"
-                            data-bs-target="#modalcheese">
-                        <figcaption class="policetitre">Cheesecake</figcaption>
-                        <div class="modal fade" id="modalcheese" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header justify-content-end hauteurheadmodal">
-                                        <span type="button" class="close2" data-bs-dismiss="modal">&times;</span>
-                                    </div>
-                                    <div class="modal-body text-center">
-                                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau7.jpg"
-                                            class="imggat" alt="Gateau7">
-                                    </div>
-                                    <h2 class="titregat">Cheesecake</h2>
-                                    <p class="ingrprix"> <strong>Ingrédients : </strong>Oeufs, Beurre, Sucre</p>
-                                    <p class="ingrprix"> <strong>Prix : </strong>18€</p>
-                                    <div class="modal-footer justify-content-start">
-                                        <input type="button" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau8.jpg"
-                            class="img2" alt="Gateau8" type="button" class="btn" data-bs-toggle="modal"
-                            data-bs-target="#modalclafoutis">
-                        <figcaption class="policetitre">Clafoutis aux cerises</figcaption>
-                        <div class="modal fade" id="modalclafoutis" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header justify-content-end hauteurheadmodal">
-                                        <span type="button" class="close2" data-bs-dismiss="modal">&times;</span>
-                                    </div>
-                                    <div class="modal-body text-center">
-                                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau8.jpg"
-                                            class="imggat" alt="Gateau8">
-                                    </div>
-                                    <h2 class="titregat">Clafoutis aux cerises</h2>
-                                    <p class="ingrprix"> <strong>Ingrédients : </strong>Sel, Farine, Beurre, Oeufs,
-                                        Lait, Sucre, Vanille, Cerises</p>
-                                    <p class="ingrprix"> <strong>Prix : </strong>18€</p>
-                                    <div class="modal-footer justify-content-start">
-                                        <input type="button" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau9.jpg"
-                            class="img2" alt="Gateau9" type="button" class="btn" data-bs-toggle="modal"
-                            data-bs-target="#modaltarte">
-                        <figcaption class="policetitre">Tarte aux pommes</figcaption>
-                        <div class="modal fade" id="modaltarte" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header justify-content-end hauteurheadmodal">
-                                        <span type="button" class="close2" data-bs-dismiss="modal">&times;</span>
-                                    </div>
-                                    <div class="modal-body text-center">
-                                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau9.jpg"
-                                            class="imggat" alt="Gateau9">
-                                    </div>
-                                    <h2 class="titregat">Tarte aux pommes</h2>
-                                    <p class="ingrprix"> <strong>Ingrédients : </strong>Pâte brisée, Sucre vanillé,
-                                        Beurre, Pommes</p>
-                                    <p class="ingrprix"> <strong>Prix : </strong>18€</p>
-                                    <div class="modal-footer justify-content-start">
-                                        <input type="button" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau10.jpg"
-                            class="img2" alt="Gateau10" type="button" class="btn" data-bs-toggle="modal"
-                            data-bs-target="#modalbreton">
-                        <figcaption class="policetitre">Gateau breton</figcaption>
-                        <div class="modal fade" id="modalbreton" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header justify-content-end hauteurheadmodal">
-                                        <span type="button" class="close2" data-bs-dismiss="modal">&times;</span>
-                                    </div>
-                                    <div class="modal-body text-center">
-                                        <img src="C:\Users\gcant\Desktop\La Manu\Exercices\Patisserie\sitepatisserie_responsive\assets\img\gateau10.jpg"
-                                            class="imggat" alt="Gateau10">
-                                    </div>
-                                    <h2 class="titregat">Gateau breton</h2>
-                                    <p class="ingrprix"> <strong>Ingrédients : </strong>Oeufs, Sucre, Farine, Beurre</p>
-                                    <p class="ingrprix"> <strong>Prix : </strong>18€</p>
-                                    <div class="modal-footer justify-content-start">
-                                        <input type="button" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- **************** FOOTER **************** -->
+      </div>
+    </div>
+    
 
-        <div class="row  w-100 footerColor justify-content-center titreFooter noGutter">
-            <div class="col-12 col-lg-3 col-xl-3 mb-3">
-                <div class="row text-center d-block">
-                    <div class="col-12 mb-3"><h2>Information</h2></div>
-                    <div class="col-6 mt-1 h-25 offset-3 text-start "><a href="">Mentions légales</a></div>
-                    <div class="col-6 mt-1 h-25 offset-3 text-start "><a href="">Conditions générales des ventes</a></div>
-                    <div class="col-6 mt-1 h-25 offset-3 text-start "><a href="">Contact</a></div>
-                    <div class="col-6 mt-1 h-25 offset-3 text-start "><a href="">Utilisation des données</a></div>
-                    
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 col-xl-3 mb-3">
-                <div class="row text-center justify-content-center ">
-                    <div class="col-12 mb-3"><h2>Réseaux sociaux</h2></div>
-                    <div class="col-3 col-xl-4"><a href="https://twitter.com/">
-                        <svg class="svgFoot" xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 512 512" width="2rem"><script xmlns=""/><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm116.886719 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0"/></svg>
+    <!-- **************** FOOTER **************** -->
+
+    <div class="row  w-100 footerColor justify-content-center titreFooter noGutter">
+      <div class="col-12 col-lg-3 col-xl-3 mb-3">
+        <div class="row text-center d-block">
+          <div class="col-12 mb-3">
+            <h2>Information</h2>
+          </div>
+          <div class="col-6 mt-1 h-25 offset-3 text-start "><a href="">Mentions légales</a></div>
+          <div class="col-6 mt-1 h-25 offset-3 text-start "><a href="">Conditions générales des ventes</a></div>
+          <div class="col-6 mt-1 h-25 offset-3 text-start "><a href="">Contact</a></div>
+          <div class="col-6 mt-1 h-25 offset-3 text-start "><a href="">Utilisation des données</a></div>
+
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-xl-3 mb-3">
+        <div class="row text-center justify-content-center ">
+          <div class="col-12 mb-3">
+            <h2>Réseaux sociaux</h2>
+          </div>
+          <div class="col-3 col-xl-4"><a href="https://twitter.com/">
+              <svg class="svgFoot" xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 512 512" width="2rem">
+                <script xmlns="" /><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm116.886719 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0"/></svg>
                     </a></div>
                     <div class="col-3 col-xl-4"><a href="https://twitter.com/">
                         <svg class="svgFoot" xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 512 512" width="2rem"><script xmlns=""/><path d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z"/></svg>
@@ -351,7 +204,7 @@
                 </div>
             </div>
         </div>
-
+      </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
